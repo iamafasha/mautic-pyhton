@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools","wheels"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mautic"
+version = "0.0.1"
+description = "A mautic api library for pyhton"
+authors = [
+       { name = "Isakiye Afasha", email="afashaisakiye@gmail.com" }
+]
+licence = { text = "MIT"}
+requires-python = ">=3.6"
+dependencies = [
+    "requests",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ebimsv/mlpredictor"
